@@ -9,7 +9,7 @@ if(savedpassword && savedpassword){
 	document.body.appendChild = (existingButton);
 
 	existingButton.addEventListener('click', function(){
-		alert(`Logged in as ${savedusername}.`);
+		alert("Logged in as.");
 	});
 	
 }
@@ -29,7 +29,7 @@ const loginForm = document.getElementById("loginForm").addEventListener("submit"
 		localStorage.removeItem('username');
 		localStorage.removeItem('username');
 	}
-	alert(`Logged in as ${username}`);
+	alert("Logged in as.");
 	
 });
 
