@@ -27,7 +27,7 @@ const loginForm = document.getElementById("loginForm").addEventListener("submit"
 	}
 	else{
 		localStorage.removeItem('username');
-		localStorage.removeItem('username');
+		localStorage.removeItem('password');
 	}
 	alert("Logged in as.");
 	
